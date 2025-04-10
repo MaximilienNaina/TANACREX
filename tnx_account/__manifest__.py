@@ -18,11 +18,11 @@
     "depends": [
         "base",
         "tnx_base",
-        "tnx_product",
+        # "tnx_product",
         "tnx_sale",
-        "tnx_contact",
+        # "tnx_contact",
         "account",
-        "sale",
+        # "sale",
         "stock",
         "sale_stock",
         "mail",
@@ -32,6 +32,7 @@
         "views/views.xml",
         "views/templates.xml",
         "views/account_move.xml",
+        "views/sale_order.xml"
         "views/stock_view.xml",
         "views/account_invoice_view.xml",
         "views/bank_company.xml",
@@ -47,6 +48,7 @@
         "report/report_invoice_vl.xml",
         "report/report_invoice_ls.xml",
         "report/report_invoice_fornisseur.xml",
+        "report/report_sale_order.xml",
     ],
     # only loaded in demonstration mode
     "demo": [
